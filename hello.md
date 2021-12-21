@@ -1,4 +1,4 @@
-# Blog escrito con maracacion markdown
+# Blog escrito con marcación MARKDOWN
 
 ```
 Esta será un proyecto de escritura MARKDOWN
