@@ -141,4 +141,18 @@ para el uso de los emojis :
 :hugs:
 
 ---
-## Notas de pie 
+## Notas de pie (github)
+Para crear notas de pie usamos:
+```
+Mi primera linea[^1].
+La practica hace al maestro[^2].
+Crear desde cero no es como vivir desde cero[^frase]
+
+
+[^1]:Referencia a la primera linea.  
+[^2]:Referencia a una frase. 
+[^frase]:Podemos hacer uso de palabras como referencia a las notas. 
+
+
+
+``` 
