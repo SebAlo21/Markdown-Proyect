@@ -159,7 +159,7 @@ Esta es la primera linea[^1].
 
 La practica hace al maestro[^2].
 
-[^notes]
+[^note]
 
 [^1] Referencia a la primera pagina
 [^2] Frase.
