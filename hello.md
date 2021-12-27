@@ -91,7 +91,7 @@ Para que el archivo markdown reconozca el codigo se agrega :
 console.log("hello")
 `
 ```
-- Para bloques grandes codigo usamos el triple backstick
+- Para bloques grandes codigo usamos el triple backstick.
 ```
     ```javascript
             const openYellow=document.getElementById('open-yellow');
@@ -110,3 +110,32 @@ console.log("hello")
             openYellow.addEventListener('click',togglePanelYellow)
             closeYellow.addEventListener('click',togglePanelYellow)
 ```
+## Task list(Github)
+---
+Podemos crear listas de tareas con la implementación de Markdown a github.
+```
+- [ ] Task 1 
+- [x] Task 2 
+- [] Task 3 
+- [x] Task 4 
+```
+- [ ] Task 1 
+- [x] Task 2 
+- [ ] Task 3 
+- [x] Task 4 
+---
+## Emojis(Github)
+---
+Gracias a la implementación del marcado rápido,podemos hacer uso de emojis de una gran lista disponible en: 
+[emojis-github](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md),
+para el uso de los emojis :
+```
+:smile:
+:relaxed:
+:hugs:
+```
+:smile:
+
+:relaxed:
+
+:hugs:
