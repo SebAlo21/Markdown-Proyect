@@ -82,3 +82,31 @@ Para introducir una imagen ,se realiza la referencia de un LINK:
 ![imagen.png]()
 ```
 ![imagen.png](https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/gallery/59144d795cafe812663c986a/razonescomermanzana-int.jpg)
+
+## Codigo embed
+---
+Para que el archivo markdown reconozca el codigo se agrega :
+```
+`javascript(python,html,css,etc)
+console.log("hello")
+`
+```
+- Para bloques grandes codigo usamos el triple backstick
+```
+    ```javascript
+            const openYellow=document.getElementById('open-yellow');
+        const panelYellow=document.getElementById('panel-yellow');
+        const closeYellow=document.getElementById('close-yellow');
+        const togglePanelYellow=()=>panelYellow.classList.toggle('active')
+            openYellow.addEventListener('click',togglePanelYellow)
+            closeYellow.addEventListener('click',togglePanelYellow)
+    ```
+```
+```javascript
+            const openYellow=document.getElementById('open-yellow');
+        const panelYellow=document.getElementById('panel-yellow');
+        const closeYellow=document.getElementById('close-yellow');
+        const togglePanelYellow=()=>panelYellow.classList.toggle('active')
+            openYellow.addEventListener('click',togglePanelYellow)
+            closeYellow.addEventListener('click',togglePanelYellow)
+```
