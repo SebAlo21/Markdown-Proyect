@@ -183,3 +183,5 @@ El siguiente texto no se renderizara en \*italica\*,pero este si *italica*.
 ---
 Mediante el boton <> podemos hacer una vista del documento origen(es decir ,sin renderizado).
 ![Imagen de visualizador](https://docs.github.com/assets/cb-17832/images/help/writing/display-markdown-as-source.png)
+
+# ACTUALIZADO 12/26/2021
