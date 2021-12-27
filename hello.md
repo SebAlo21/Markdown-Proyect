@@ -1,7 +1,7 @@
 # Blog escrito con marcación MARKDOWN
 
 ```
-Esta será un proyecto de escritura MARKDOWN
+Este será un proyecto de escritura MARKDOWN
 ```
 ---
 ## Encabezados
@@ -161,3 +161,25 @@ Crear desde cero no es como vivir desde cero[^frase]
 [^1]:Referencia a la primera linea.  
 [^2]:Referencia a una frase. 
 [^frase]:Podemos hacer uso de palabras como referencia a las notas. 
+
+## Ocultar Markdown
+---
+Es muy común que deseeamos ocultar texto para ciertas partes de la documentación del proyecto,   
+por ello existe la opción de ocultar el marcado mediante el uso de los comentarios de HTML. 
+```
+<!-- Este texto esta completamente oculto por el motor de renderizado -->
+```
+<!-- Este texto esta completamente ignorado por el motor de renderizado -->
+
+## Ignorar el formato de Markdown
+---
+Por otra parte podemos escapar del renderizado de Markdown para establecer texto literario sin marcado.
+```
+El siguiente texto no se renderizara en \*italica\*,pero este si *italica*.
+```
+El siguiente texto no se renderizara en \*italica\*,pero este si *italica*.
+
+## Deshabilitar el visualizador de Markdown
+---
+Mediante el boton <> podemos hacer una vista del documento origen(es decir ,sin renderizado).
+![Imagen de visualizador](https://docs.github.com/assets/cb-17832/images/help/writing/display-markdown-as-source.png)
