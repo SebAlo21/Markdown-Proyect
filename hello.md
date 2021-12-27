@@ -142,24 +142,3 @@ para el uso de los emojis :
 
 ---
 ## Notas de pie 
-Para el uso de notas de pie usamos:
-```
-USAMOS [^1] PARA CADA REFERENCIA 
-Esta es la primera linea[^1].
-
-La practica hace al maestro[^2].
-
-USAMOS [^NOTE] PARA CERRAR LA SECCION DE REFERENCIAS E INICIAR CON LAS NOTAS DE PIE.
-[^note]
-SE REPITE LAS MISMAS REFERENCIAS PARA LAS NOTAS RESPECTIVAMENTE SEGUIDO DE ":".
-[^1]:Referencia a la primera pagina
-[^2]:Frase.
-```
-Esta es la primera linea[^1].
-
-La practica hace al maestro[^2].
-
-[^note]
-
-[^1]:Referencia a la primera pagina.
-[^2]:Frase.
