@@ -149,17 +149,17 @@ Esta es la primera linea[^1].
 
 La practica hace al maestro[^2].
 
-USAMOS [^NOTES] PARA CERRAR LA SECCION DE REFERENCIAS E INICIAR CON LAS NOTAS DE PIE.
-[^notes]
-SE REPITE LAS MISMAS REFERENCIAS PARA LAS NOTAS RESPECTIVAMENTE.
-[^1] Referencia a la primera pagina
-[^2] Frase.
+USAMOS [^NOTE] PARA CERRAR LA SECCION DE REFERENCIAS E INICIAR CON LAS NOTAS DE PIE.
+[^note]
+SE REPITE LAS MISMAS REFERENCIAS PARA LAS NOTAS RESPECTIVAMENTE SEGUIDO DE ":".
+[^1]:Referencia a la primera pagina
+[^2]:Frase.
 ```
 Esta es la primera linea[^1].
 
 La practica hace al maestro[^2].
 
-[^notes]
+[^note]
 
-[^1] Referencia a la primera pagina
-[^2] Frase.
+[^1]:Referencia a la primera pagina.
+[^2]:Frase.
