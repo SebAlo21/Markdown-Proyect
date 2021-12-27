@@ -161,5 +161,5 @@ La practica hace al maestro[^2].
 
 [^note]
 
-[^1] Referencia a la primera pagina
-[^2] Frase.
+[^1]:Referencia a la primera pagina
+[^2]:Frase.
