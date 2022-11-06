@@ -79,7 +79,7 @@ Para crear listas :
 ---
 Para introducir una imagen ,se realiza la referencia de un LINK:
 ```
-![imagen.png]()
+![imagen.png](link_de_imagen)
 ```
 ![imagen.png](https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/gallery/59144d795cafe812663c986a/razonescomermanzana-int.jpg)
 
